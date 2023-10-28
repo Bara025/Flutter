@@ -11,7 +11,7 @@ class LoginPage extends StatelessWidget{
           child: Column(
             children: [
               Padding(padding: EdgeInsets.symmetric(vertical: 60),
-              child: Image.asset("assets/images/user.png"),
+              child: Image.asset("assets/images/login.png"),
               ),
 
               Container(
@@ -45,7 +45,7 @@ class LoginPage extends StatelessWidget{
                       child: TextFormField(
                         decoration: InputDecoration(
                           border: InputBorder.none,
-                          hintText: "Masukkan Username",
+                          hintText: "Username",
                         ),
                       ),
                     ),
@@ -86,7 +86,7 @@ class LoginPage extends StatelessWidget{
                       child: TextFormField(
                         decoration: InputDecoration(
                           border: InputBorder.none,
-                          hintText: "Masukkan Password",
+                          hintText: "Password",
                         ),
                       ),
                     ),
